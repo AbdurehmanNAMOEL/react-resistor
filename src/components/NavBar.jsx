@@ -20,7 +20,7 @@ export const NavBar = ({setTitle,setImage,setClose}) => {
         setImage(SixBandManual)
     }
   return (
-     <header>
+     <header className='nav-bar'>
         <ul>
           <li onClick={handleFourBandManual}><Link className='link' to={'/'}>FourBand</Link> </li>
           <li onClick={handleFiveBandManual}><Link className='link' to={'/fiveBand'}>FiveBand</Link> </li>

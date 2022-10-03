@@ -14,6 +14,8 @@
 .six-band-home-container{
    flex-direction: column;
    gap: 10px;
-   height: 100vh;
+   height: 160vh;
+   width: 100%;
+   margin-top: 0px;
 }
 }
