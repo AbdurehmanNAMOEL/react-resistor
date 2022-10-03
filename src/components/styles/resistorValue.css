@@ -37,9 +37,9 @@
     font-size: 15px;
     margin-left: 80px;
 }
-.input-value-container-fiveBand,
-.input-value-container-sixBand,
-.input-value-container-fourBand{
+
+.input-value-container-sixBand
+{
     display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: 50px 50px;
@@ -47,14 +47,17 @@
   
 }
 .input-value-container-fiveBand{
-    margin-left: -3px;
+    margin-left: 15px;
 }
-.input-value-container-fourBand{
-    margin-left: -50px;
-    display: grid;
+.input-value-container-fourBand,
+.input-value-container-fiveBand{
+
     grid-template-columns: 100%;
     grid-template-rows: 50px 50px 50px 50px;
     grid-row-gap: 5px;
+}
+.input-value-container-fourBand{
+    margin-left: -50px;
 }
 }
 
